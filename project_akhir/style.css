@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+.navbar{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 5rem;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 20px;
+}
+
+.intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-bottom: 1px solid gray;
+}
+
+.nama{
+    width: 50%;
+    margin: 100px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.nama span{
+    color: rgb(173, 173, 1);
+}
+
+.profil{
+    width: 50%;
+}
+
+.profile img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+/* tampilan 2 */
+.aboutme{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.me{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px 50px;
+}
+
+.about{
+    box-sizing: border-box;
+    color: white;
+    grid-column: 1;
+}
+
+.skill{
+    color: white;
+    grid-column: 2;
+}
+
+.isi{
+    color: white;
+    grid-row: 2;
+    padding-left: 10px;
+}
+
+.list{
+    color: white;
+    grid-column: 2;
+    grid-row: 2;
+}
+/* tampilan 3 */
+.project{
+    margin-top: 80px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+    height: 140vh;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+}
+
+.class{
+    width: 90%;
+    height: 90%;
+    color: rgb(255, 255, 255);
+    background-color: gray;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.project h2{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 10px;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+}
+
+.project h4{
+    width: 80%;
+    color: white;
+    margin: auto;
+    margin-bottom: 100px;
+    font-weight: bolder;
+}
+
+.class img{
+    width: 90%;
+    height: 70%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.class h3{
+    margin-top: 10px;
+    font-weight: bold;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.class h4{
+    margin-top: -15px;
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: 100;
+    margin-left: 20px;
+    padding: 0;
+    font-size: 14px;
+    color: black;
+}
+/* tampilan 4 */
+footer {
+    color: #fff;
+    padding: 50px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.footer-left {
+    margin-left: 80px;
+    width: 60%; 
+}
+
+.footer-right {
+    margin-left: 250px;
+    width: 30%; 
+}
+
+.footer-left h3, .footer-right h4 {
+    margin: 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.footer-left p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.footer-right ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-right ul li {
+    margin: 5px 0;
+}
+
+.footer-right ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.footer-right ul li a:hover {
+    color: gray;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}

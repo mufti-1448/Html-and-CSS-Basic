@@ -1,0 +1,12 @@
+body{
+    font-family: arial;
+}
+h1{
+    color: blue;
+    text-align: center;
+}
+.paragraf {
+    text-align: justify;
+    color: brown;
+    text-indent: 30px;
+}

@@ -1,0 +1,16 @@
+.judul{
+    text-align: center;
+    color: blue;
+    background-color: black;
+    padding: 5px;
+}
+.isi h4{
+    color: red;
+}
+.isi h5,.isi h6{
+    color: yellow;
+}
+.isi{
+    background-color: gray;
+    padding: 10px;
+}

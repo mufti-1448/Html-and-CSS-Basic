@@ -1,0 +1,70 @@
+body {
+    margin: 0; /* Menghilangkan margin default dari body */
+    font-family: Arial, sans-serif; /* Mengatur font keluarga default untuk body */
+    display: flex; /* Mengaktifkan tata letak flexbox untuk memusatkan konten */
+    justify-content: center; /* Memusatkan kontainer login secara horizontal */
+    align-items: center; /* Memusatkan kontainer login secara vertikal */
+    height: 100vh; /* Mengatur tinggi body agar sesuai dengan tinggi layar penuh */
+    background-color: #f7f7f7; /* Mengatur warna latar belakang halaman */
+}
+
+.container {
+    display: flex; /* Menggunakan flexbox untuk menempatkan bagian logo dan form secara berdampingan */
+    background-color: #fff; /* Mengatur warna latar belakang kontainer login */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan halus untuk memberi efek kedalaman */
+    border-radius: 10px; /* Membuat sudut kontainer login sedikit melengkung */
+    overflow: hidden; /* Mencegah konten meluap keluar dari kontainer */
+    max-width: 800px; /* Mengatur lebar maksimum untuk kontainer */
+    width: 100%; /* Memastikan kontainer mengambil seluruh lebar dalam batas max-width */
+}
+
+.logo {
+    background-color: #ffffff; /* Mengatur warna latar belakang untuk bagian logo */
+    padding: 10px; /* Menambahkan padding di sekitar logo */
+    display: flex; /* Menggunakan flexbox untuk memusatkan logo */
+    justify-content: center; /* Memusatkan logo secara horizontal */
+    align-items: center; /* Memusatkan logo secara vertikal */
+    flex: 1; /* Membiarkan bagian logo mengambil ruang yang sama dengan bagian form */
+}
+
+.logo img {
+    max-width: 100%; /* Memastikan gambar logo tidak melebihi lebar kontainer */
+    height: auto; /* Menjaga rasio aspek dari logo */
+}
+
+.form {
+    padding: 30px; /* Menambahkan padding di sekitar konten form */
+    flex: 1; /* Membiarkan bagian form mengambil ruang yang sama dengan bagian logo */
+}
+
+.form h2 {
+    margin-bottom: 20px; /* Menambahkan jarak di bawah heading */
+    font-size: 24px; /* Mengatur ukuran font untuk heading */
+}
+
+.input {
+    margin-bottom: 20px; /* Menambahkan jarak di bawah setiap grup input */
+}
+
+.input input {
+    width: 100%; /* Membuat kolom input mengambil seluruh lebar kontainer */
+    padding: 10px; /* Menambahkan padding di dalam kolom input */
+    border: 1px solid #ccc; /* Mengatur border abu-abu terang di sekitar kolom input */
+    border-radius: 5px; /* Membuat sudut kolom input sedikit melengkung */
+    font-size: 16px; /* Mengatur ukuran font untuk teks di dalam kolom input */
+}
+
+button {
+    width: 100px; /* Membuat tombol mengambil seluruh lebar kontainer */
+    padding: 10px; /* Menambahkan padding di dalam tombol */
+    background-color: #004d00; /* Mengatur warna latar belakang tombol */
+    color: #fff; /* Mengatur warna teks pada tombol */
+    border: none; /* Menghilangkan border default dari tombol */
+    border-radius: 5px; /* Membuat sudut tombol sedikit melengkung */
+    font-size: 16px; /* Mengatur ukuran font untuk teks tombol */
+    cursor: pointer; /* Mengubah kursor menjadi pointer saat mengarahkan mouse ke tombol */
+}
+
+button:hover {
+    background-color: #003300; /* Menggelapkan warna latar belakang saat tombol dihover untuk efek visual */
+}

@@ -1,0 +1,64 @@
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+h1{
+    margin: 0;
+    text-align: center;
+    
+}
+  
+.header {
+    background-color: yellow;
+    height: 250px;
+    display: flex;
+    /* tengah vertical  */
+    align-items: center;
+    /* tengah horizontal  */
+    justify-content: center;
+}
+  
+.menu {
+    background-color: red;
+    height: 70px;
+    display: flex;
+    /* tengah vertical  */
+    align-items: center;
+    /* tengah horizontal  */
+    justify-content: center;
+}
+  
+.content {
+    display: flex;
+    height: 600px;
+}
+  
+.sidebar {
+    background-color: orange;
+    width: 30%;
+    display: flex;
+    /* tengah vertical  */
+    align-items: center;
+    /* tengah horizontal  */
+    justify-content: center;
+}
+  
+.main {
+    background-color: blue;
+    width: 70%;
+    display: flex;
+    /* tengah vertical  */
+    align-items: center;
+    /* tengah horizontal  */
+    justify-content: center;
+}
+  
+.footer {
+    background-color: green;
+    height: 100px;
+    display: flex;
+    /* tengah vertical  */
+    align-items: center;
+    /* tengah horizontal  */
+    justify-content: center;
+}
